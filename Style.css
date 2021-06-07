@@ -219,3 +219,17 @@
     color: white !important;
     background-color: rgb(134, 127, 127) !important;
 }
+
+.VR{
+    text-align: center;
+    margin-top: -1%;
+}
+
+.VR a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.VR img{
+    margin: 15px 0;
+}
