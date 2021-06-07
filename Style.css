@@ -1,0 +1,221 @@
+.navbar{
+    background-color: white !important;
+}
+
+.registrationbtn{
+    background-color: #4064d7;
+    border-radius: 20px;
+}
+.registrationbtn:hover{
+    background-color: black;
+    transition: 0.6s ease;
+}
+
+.Click{
+    text-align: center;
+    margin-top: 2rem;
+}
+.Click button{
+    text-align: center;
+    color: white;
+    background-color: #4064d7;
+    padding: 7px 32px;
+    border-radius: 35px;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+.Click hr{
+    color: #2952d8;
+    height: 2px;
+    width: 200px;
+}
+.VR{
+    margin-top: 150px;
+}
+.image-mid{
+    margin-top: 110px;
+}
+.threeinrow{
+    margin-top: 7rem;
+}
+
+.Find:hover{
+    color: white;
+    background-color: black;
+    transition: 0.6s ease;
+}
+.Sub{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.Sub button{
+    color: white;
+    padding: 10px 35px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: -33%;
+}
+
+.Sub button:hover{
+    color: #4064d7;
+    background-color: white;
+    transition: 0.6s ease;
+}
+.AllStudyMaterials{
+    text-align: center;
+}
+.AllStudyMaterials button{
+    text-align: center;
+    color: white;
+    background-color: #4064d7;
+    padding: 7px 32px;
+    border-radius: 35px;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+.AllStudyMaterials button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.6s ease;
+}
+
+.WhatSt{
+    background-color: rgb(231, 230, 230);
+}
+.Grays img{
+    border-radius: 50px;
+    width: 60px;
+}
+
+.Grays h5{
+    margin-top: -10%;
+    margin-left: 14%;
+}
+
+.Grays .p{
+    margin-top: -2%;
+    margin-left: 14%;
+}
+
+.Click span{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.Numsmall span{
+    font-size: 14px;
+
+}
+
+.WouldYou{
+    background-color: #4064d7;
+}
+.WouldYou button{
+    border: 2px solid white;
+    border-radius: 45px;
+    padding: 7px 35px;
+}
+
+.WouldYou button:hover{
+    color: #4064d7 !important;
+    background-color: white;
+    transition: 0.5s ease;
+}
+.Footer{
+    background-color: rgb(41, 39, 39);
+}
+
+.Footer hr{
+    color: white;
+}
+
+
+/* Services Page CSS */
+
+.carousel{
+    position: relative;
+    display: block;
+}
+.Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 17.67%;
+}
+
+.Overlay h1{
+    font-size: 70px;
+    font-weight: 750;
+    margin-bottom: 1.6rem;
+}
+
+/* Media for Service Top Carousel */
+
+@media screen and (max-width: 900px) {
+    .Overlay{
+        padding: 5%;
+    }
+    .Overlay h1{
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .Overlay h1{
+        font-size: 30px;
+        font-weight: 600;
+        padding: 1%;
+    }
+    .Overlay h4{
+        font-size: 18px;
+        margin-top: 0%;
+    }
+    .Overlay p{
+        font-size: 10px;
+        margin-top: -5%;
+    }
+}
+
+
+.OverlayTakeARide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+    .OverlayTakeARide{
+    padding: 1%;
+}
+.OverlayTakeARide h2{
+    margin-top: -4%;
+}
+.OverlayTakeARide button{
+    margin-top: -2%;
+}
+}
+@media screen and (max-width: 600px){
+    .OverlayTakeARide h2{
+        margin-top: -22%;
+        font-size: 18px;
+    }
+    .OverlayTakeARide p{
+        font-size: 12px;
+        margin-top: -6%;
+    }
+    .OverlayTakeARide button{
+        width: 120px;
+        font-size: 10px;
+        margin-top: 2%;
+    }
+}
+
+.Click .btn:hover{
+    color: white !important;
+    background-color: rgb(134, 127, 127) !important;
+}
