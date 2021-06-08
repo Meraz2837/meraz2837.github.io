@@ -2,102 +2,226 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="Style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
 
-  <title>HyperVR</title>
+    <title>HyperVR</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img class="img-fluid" src="/Image/Screenshot_1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Meet Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Technologies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Profile
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item registrationbtn px-3">
+                        <a class="nav-link text-white" href="#">Course Registration</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Image Carousal -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Top Slideshow/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/Top Slideshow/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/Top Slideshow/3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="Overlay container-fluid text-center text-white">
+            <h1>About Us</h1>
+            <h4 class="mb-4">Welcome To EdulationVR</h4>
+            <p>Edulation VR is an online learning system where students can Learn there lessons from Virtual Reality and
+                3D Videos. They can learn new things, even apart there lessons and can explore the whole world from
+                home.</p>
+        </div>
+    </div>
+
+    <!-- 3 in row -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="Click clhr p-5">
+                        <h2>Who Are We</h2>
+                        <hr class="mx-auto">
+                        <p>
+                            Edulation VR is an online learning system where students can Learn there lessons from
+                            Virtual Reality and 3D Videos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="Click clhr p-5">
+                        <h2>Our Mission</h2>
+                        <hr class="mx-auto">
+                        <p>
+                            EdulationVR will change the way of learning and the Education System. We will make learning
+                            Easy, Comfortable and Advanced.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="Click clhr p-5">
+                        <h2>What We Do</h2>
+                        <hr class="mx-auto">
+                        <p>
+                            Edulation VR provides free educational contents, many paid courses, Expert teachers, AI
+                            based VR classrooms, AI Test, VR Lab etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our abstract -->
+    <section class="bg-Ash p-5">
+        <div class="container">
+            <div class="Click">
+                <h2>Our Abstract</h2>
+                <hr class="mx-auto">
+                <p>
+                    With the evolution of technology, educational capabilities are growing and changing every day.
+                    Students are now much advanced than before. The will of learning the unknown are increasing on them.
+                    Students want to learn the theories & lessons practically. But learning every lessons or theory is
+                    not easy for both students and teachers. Moreover learning this lessons practically might be
+                    dangerous, unsafe and expensive too considering the price of equipment, chemicals or other materials
+                    that are used. In chemistry lab, many chemical reactions are very dangerous and not easily
+                    understandable. However, these chemicals are much expensive and most of them are harmful for our
+                    environment. In Biology subject, it’s hard for students to understand complicated topics like human
+                    anatomy only just watching 2D images of book. <br> <br>
+                    So, we decided to make an web application where students can learn and perform Chemistry, Biology,
+                    Physics practicals without any hazard. Students can learn hardly understandable topics like
+                    bio-chemistry, dificult chemical reactions, human anatomy, circuit boards, solar system, Nuclear
+                    reactions, real life physics, real life maths, 3D & 360 degree historical and tourist attraction
+                    places of the whole world and many more.
+                </p>
+            </div>
+
+            <div class="Click mt-5">
+                <h2>Our Objectives</h2>
+                <hr class="mx-auto">
+                <p>
+                    #We want to bring a change in our education and learning system by our website and application. In
+                    this modern Technology era, we are still using the old traditional learning system. We are not
+                    acquiring practical knowledge about what we are learning. As a result we are lagging behind in both,
+                    in acquiring practical knowledge and quality education. <br><br>
+                    #EdulationVR is for both Students and Teachers. Students can get help in any problem and teachers
+                    can solve them. Students can take participate in paid classes of various expert teachers. Any one
+                    from anywhere can take classes. <br><br>
+                    #Teachers and Animation Content makers can also earn money by making 2D, 3D Animation and AR, VR
+                    video contents on various topics and lessons.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our 3D VR Simulations -->
+
+    <section>
+        <div class="container pb-5">
+            <div class="Click">
+                <h2>Our 3D VR Simulations</h2>
+                <hr class="mx-auto">
+            </div>
+        </div>
+<!-- 2nd 3 in row -->
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="/Image/Screenshot_1.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="About.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Meet Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Technologies</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Profile
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Login</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Register</a></li>
-            </ul>
-          </li>
-          <li class="nav-item registrationbtn px-3">
-            <a class="nav-link text-white" href="#">Course Registration</a>
-          </li>
-      </div>
-    </div>
-  </nav>
-
-
-   <!-- Image Carousal -->
-   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="/Top Slideshow/1.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="/Top Slideshow/2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="/Top Slideshow/3.png" class="d-block w-100" alt="...">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="p-5">
+                    <h2>Biology</h2>
+                    <p>
+                        Learn about the basics of life and living organisms in our biology simulations for Non-majors. Study cells, genes and evolution and dive into the many layers of biology to discover what life is, and what it means for living beings’ existence on earth.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="p-5">
+                    <h2>Chemistry</h2>
+                    <p>
+                        Learn about the elements that make up our universe in our chemistry simulations for Majors. Discover how atoms interact via chemical bonds to form compounds. Study the structure of atoms and molecules and discover different techniques in the chemistry lab.​
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="p-5">
+                    <h2>Microbiology</h2>
+                    <p>
+                        Learn about the microorganisms that are all around and inside us in our microbiology simulations. Study the living organisms that are too small to be seen with the naked eye, explore how to handle them in the laboratory, and discover how they play an important role in the causes and control of diseases.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    <div class="Overlay container-fluid text-center text-white">
-        <h1>About Us</h1>
-        <h4 class="mb-4">Welcome To EdulationVR</h4>
-        <p>Edulation VR is an online learning system where students can Learn there lessons from Virtual Reality and 3D Videos. They can learn new things, even apart there lessons and can explore the whole world from home.</p>
-    </div>
-</div>
+    </section>
 
 
 
-
-      <!-- Would you like to start a project with Us? -->
-      <section>
+    <!-- Would you like to start a project with Us? -->
+    <section>
         <div class="WouldYou mt-5 p-5 text-white">
             <div class="container">
                 <div class="row">

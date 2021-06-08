@@ -233,3 +233,14 @@
 .VR img{
     margin: 15px 0;
 }
+
+/* 3 in row */
+.clhr hr{
+    width: 35px;
+    height: 7px;
+}
+
+
+.bg-Ash{
+    background-color: rgb(243, 242, 242);
+}
